@@ -1,4 +1,4 @@
-package com.jc.hm;
+package com.jc.hm.arrays;
 
 import java.util.ArrayList;
 import java.util.List;
