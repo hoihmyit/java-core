@@ -5,11 +5,14 @@ public class StringPool {
     public static void main(String[] args) {
 
         /**
-         * String pool là một vùng nhớ đặc biệt nằm trong vùng nhớ Heap (Heap memory), dùng để lưu trữ các biến được khai báo theo kiểu String.
-         * String pool giúp tối ưu hoá việc lưu trữ và sử dụng vùng nhớ khi khai báo biến String, giúp hạn chế tình trạng tràn bộ nhớ Java Heap Space.
+         * String pool là một vùng nhớ đặc biệt nằm trong vùng nhớ Heap (Heap memory),
+         * dùng để lưu trữ các biến được khai báo theo kiểu String.
+         * String pool giúp tối ưu hoá việc lưu trữ và sử dụng vùng nhớ khi khai báo biến String,
+         * giúp hạn chế tình trạng tràn bộ nhớ Java Heap Space.
          *
-         * String là một immutable class. Vậy immutable class là gì ? Immutable class là là một lớp bất biến, các thuộc tính của nó không bao giờ bị thay đổi và chỉ có thể thiết lập lúc khởi tạo.
-         * String là một immutable class. Vậy immutable class là gì ? Immutable class là là một lớp bất biến, các thuộc tính của nó không bao giờ bị thay đổi và chỉ có thể thiết lập lúc khởi tạo.
+         * String là một immutable class. Vậy immutable class là gì ?
+         * Immutable class là là một lớp bất biến, các thuộc tính của nó không bao giờ bị thay đổi
+         * và chỉ có thể thiết lập lúc khởi tạo.
          * Có 2 cách để khai báo biến kiểu String:
          */
 

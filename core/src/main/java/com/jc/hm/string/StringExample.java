@@ -8,8 +8,15 @@ public class StringExample {
     public static void main(String[] args) {
 
         /**
+         * String is an object that represents a sequence of characters.
+         * String are immutable which means once a string object is created and its value cannot be changed.
+         * However, we can create a new strings by  performing various operations on the original (existing) string.
+         *
          * strings are thread-safe because they are immutable.
          * Remember that all immutable instances are thread-safe, by design.
+         *
+         * Immutable String - cannot be changed - String class
+         * Mutable String - can be changed - StringBuilder, StringBuffer class
          *
          * StringBuilder class is used to perform string concatenation operations in a more memory-efficient way.
          * It internally maintains char[] and manipulates the content in this array only.
